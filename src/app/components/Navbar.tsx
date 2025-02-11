@@ -15,7 +15,7 @@ function Navbar() {
       <nav className="container flex justify-between py-7 mb-12 mx-auto items-center">
         <h1 className="font-burtons">
           <Link href={"/"} className="hover:text-white text-xl font-bold">
-            Portfolio Apisit Angsuphan
+            Apisit Angsuphan
           </Link>
         </h1>
         <ul className="flex items-center justify-between gap-4">
