@@ -16,13 +16,13 @@ function Hero() {
           I am a passionate Front End Web Developer with experience in web
           development and programming.
         </p>
-        <p>
+        <p className="text-md py-5 leading-8">
           I thrive on solving new challenges and continuously expanding my
           knowledge of emerging technologies{" "}
         </p>
-        <div className="text-5xl flex justify-center gap-16 py-5 mt-10 text-gray-700">
+        <div className="text-5xl flex justify-center gap-16 py-5 my-10 text-gray-700">
           <Link
-            href="https://github.com/sussus003"
+            href="https://github.com/apisitangsuphan"
             target="_blank"
             className="text-[#010409] hover:text-teal-700"
           >

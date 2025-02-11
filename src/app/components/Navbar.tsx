@@ -6,19 +6,23 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsFillSunFill } from "react-icons/bs";
 import { MdFileDownload } from "react-icons/md";
 
-
 function Navbar() {
-
   const [darkMode, setDarkMode] = useState<boolean>(false);
   console.log("set dark mode: " + darkMode);
   return (
-    <div className="w-screen bg-gray-300">
-      <nav className="container flex justify-between py-7 mb-12 mx-auto items-center">
-        <h1 className="font-burtons">
-          <Link href={"/"} className="hover:text-white text-xl font-bold">
-            Apisit Angsuphan
+    <div className="w-full bg-gray-100 shadow-md">
+      <nav className="flex justify-between py-7 mb-12 px-20 items-center">
+        <h1 className="font-burtons text-gray-700 text-xl font-bold">
+          <Link href={"/"} className= "" >
+            Portfolio
           </Link>
         </h1>
+        <ul className="flex justify-between space-x-6 text-gray-700 ">
+          
+          <li className="hover:text-gray-400"><Link href={"/"}>About</Link></li>
+          <li className="hover:text-gray-400"><Link href={"/"}>Skills</Link></li>
+          <li className="hover:text-gray-400"><Link href={"/"}>MiniProject</Link></li>
+        </ul>
         <ul className="flex items-center justify-between gap-4">
           <li>
             <Link
