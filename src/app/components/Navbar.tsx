@@ -8,6 +8,7 @@ import { MdFileDownload } from "react-icons/md";
 
 
 function Navbar() {
+
   const [darkMode, setDarkMode] = useState<boolean>(false);
   console.log("set dark mode: " + darkMode);
   return (
