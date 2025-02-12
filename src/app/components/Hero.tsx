@@ -13,12 +13,10 @@ function Hero() {
         </h2>
         <h3 className="text-2xl py-2">Front End Developer</h3>
         <p className="text-md py-5 leading-8">
-          I am a passionate Front End Web Developer with experience in web
-          development and programming.
+          
         </p>
         <p className="text-md py-5 leading-8">
-          I thrive on solving new challenges and continuously expanding my
-          knowledge of emerging technologies{" "}
+          
         </p>
         <div className="text-5xl flex justify-center gap-16 py-5 my-10 text-gray-700">
           <Link
